@@ -1,0 +1,146 @@
+
+.box {
+  border: 1px solid #a0aec0;
+  border-radius: 4px;
+  padding: 16px;
+  width: 600px; 
+}
+
+.headline {
+  color: #3182ce;
+  margin-bottom: 10px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  gap: 8px; 
+}
+
+
+.chip {
+  background-color: #e2e8f0;
+  color: #2d3748;
+  padding: 4px 8px;
+  margin: 4px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.chip-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.chip-remove {
+  cursor: pointer;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  border: none; 
+  outline: none; 
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #a0aec0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #edf2f7;
+}
+
+.box {
+  max-width: 100%;
+  margin: 0 auto; 
+  border: none; 
+  padding: 16px; 
+  display: flex;
+  flex-direction: column; 
+  gap: 16px; 
+}
+
+.headline {
+  color: #3182ce;
+  margin-bottom: 10px;
+}
+
+.chip-pic {
+  width: 24px; 
+  height: 24px;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+.dropdown-item-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.dropdown-item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.dropdown-item-name {
+  font-weight: bold;
+}
+
+.dropdown-item-email {
+  font-size: 0.8rem;
+  color: #718096;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 8px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-email {
+  font-size: 0.8rem;
+  color: #718096;
+}
