@@ -6,10 +6,6 @@
   width: 600px; 
 }
 
-.headline {
-  color: #3182ce;
-  margin-bottom: 10px;
-}
 
 .chips {
   display: flex;
@@ -86,8 +82,10 @@
 }
 
 .headline {
-  color: #3182ce;
+  color: #2f169d;
   margin-bottom: 10px;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .chip-pic {
@@ -143,4 +141,60 @@
 .user-email {
   font-size: 0.8rem;
   color: #718096;
+}
+
+.hr-line {
+  border-bottom: 2px solid #6B46C1; 
+  margin: 10px 0; 
+}
+
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc; 
+}
+
+
+.box {
+  background: linear-gradient(45deg, #d9e4f5, #e8d9f2); /* Gradient color for the box */
+  border: 1px solid #a0aec0;
+  border-radius: 4px;
+  padding: 16px;
+  width: 600px;
+}
+
+
+.dropdown {
+  background: linear-gradient(45deg, #e8d9f2, #d9e4f5); /* Gradient color for the dropdown list */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #a0aec0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-bottom: 1px solid #a0aec0;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none; 
+}
+
+.dropdown-item:hover {
+  background-color: #edf2f7;
 }

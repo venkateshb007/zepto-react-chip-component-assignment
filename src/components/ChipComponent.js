@@ -154,9 +154,9 @@ const ChipComponent = () => {
     <div className="box-container">
       <div className="box">
         <h1 className="headline">Pick User</h1>
-
+  
         {renderChips()}
-
+  
         <div className="dropdown-container" ref={dropdownRef}>
           <input
             type="text"
@@ -170,7 +170,8 @@ const ChipComponent = () => {
               setShowAllUsers(true);
             }}
           />
-
+          <div className="hr-line"></div> {/* Horizontal purple line */}
+          
           {(inputValue || showAllUsers) && dropdownVisible && (
             <div
               className="dropdown"
